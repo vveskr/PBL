@@ -85,9 +85,9 @@ body{
 .sidebar .main .list-item a.active{
     background-color: #FFB703;
     color: #fff;
-    border-radius: 6px;
+    border-radius: 8px;
     padding-left: 10px;
-    padding-right: 169px;
+    padding-right: 179px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -10px;
@@ -303,7 +303,7 @@ h2{
 }
 .graphBox2 {
     text-align: center;
-    width: 90%;
+    width: 94%;
     margin-left: 40px;
     margin-top: 1%;
     border-radius: 8px;
@@ -356,15 +356,27 @@ h2{
     font-size: 14px;
 }
 
-.content .headerdua .icon1{
+.content .headerdua .icon1sup{
     margin-left: 92%;
     margin-top: -35px;
     display: flex;
 }
 
-.content .headerdua .icon2{
+.content .headerdua .icon2sup{
     margin-left: 96%;
     margin-top: -32px;
+    display: flex;
+}
+
+.content .headerdua .icon1{
+    margin-left: 135%;
+    margin-top: -35px;
+    display: flex;
+}
+
+.content .headerdua .icon2{
+    margin-left: 142%;
+    margin-top: -31px;
     display: flex;
 }
 
@@ -479,13 +491,24 @@ h3{
 }
 
 .table-container {
-    width: 90%; /* Membatasi lebar tabel */
+    width: 150%; /* Membatasi lebar tabel */
     margin: 0 auto; /* Memusatkan tabel */
     overflow: hidden; /* Menyembunyikan elemen yang keluar */
     border-radius: 8px; /* Membuat sudut membulat */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
     display: flex;
 }
+
+.table-containersup{
+    width: 95%; /* Membatasi lebar tabel */
+    overflow: hidden; /* Menyembunyikan elemen yang keluar */
+    border-radius: 8px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    display: flex;
+    margin-left: 40px;
+}
+
+
 
 table {
     width: 100%;

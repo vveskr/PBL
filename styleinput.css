@@ -1,0 +1,227 @@
+/* Teks utama */
+
+.label .text-wrapper {
+    position: relative;
+    width: 100%;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "Montserrat-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #023047;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.label .text-wrappers {
+    position: relative;
+    width: 100%;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "Montserrat-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #023047;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Kotak */
+
+.box {
+    margin-left: 25%;
+    position: center;
+    width: 100%;
+    max-width: 800px;
+    /* Membatasi lebar kotak */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* Kotak rectangle */
+
+.box .rectangle {
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f37d;
+    border-radius: 20px;
+    border: 7px solid #e0e0e040;
+    padding: 20px;
+}
+
+
+/* Form Group Styling */
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/* Label Styling */
+
+.form-group label {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #023047;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40%;
+    /* Menentukan lebar label */
+}
+
+
+/* Input Styling */
+
+.form-group input {
+    width: 55%;
+    /* Menyesuaikan ukuran input */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"],
+input[type="date"] {
+    margin-top: 5px;
+}
+
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: #023047;
+    outline: none;
+}
+
+
+/* Styling untuk tanda asterik (*) */
+
+.form-group span {
+    color: #df0000;
+}
+
+.form-groups span {
+    color: #df0000;
+}
+
+.form-groups {
+    display: flex;
+    font-family: "Montserrat-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.gambar1 {
+    width: 55%;
+    /* Menyesuaikan ukuran input */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #57e1a5;
+}
+
+.section {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-header {
+    background-color: #0288d1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.table-header,
+.table-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-header {
+    background-color: #e0f7fa;
+    font-weight: bold;
+}
+
+.table-row {
+    background-color: #ffffff;
+}
+
+select {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #388e3c;
+}
+
+.preview-img {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
